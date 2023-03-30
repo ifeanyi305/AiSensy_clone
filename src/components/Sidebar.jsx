@@ -1,5 +1,5 @@
 import React from 'react';
-import './style/sidebar.css';
+import './style/index.css';
 import logo from '../assets/images/aisensyLogo.png'
 import { MdOutlineDashboard } from 'react-icons/md'
 import { HiOutlineChatAlt2 } from 'react-icons/hi'
