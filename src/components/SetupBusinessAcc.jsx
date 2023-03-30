@@ -107,7 +107,7 @@ const SetupBusinessAcc = ({ state }) => {
             </iframe>
             </div>
           </div>
-          <div className="mt-4 mb-2 flex items-center gap-2 justify-end">
+          <div className="mt-4 mb-2 flex flex-wrap items-center gap-2 md:justify-end">
             <button className="rounded-md p-2 bg-transparent border-[#000] border-[1px]">Buy new number</button>
             <button className="rounded-md p-2 bg-[#1877f2] text-[#fff]">Continue with facebook</button>
           </div>
