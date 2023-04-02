@@ -1,0 +1,11 @@
+# Set text files to use LF line endings on all platforms
+*.txt        text eol=lf
+
+# Ignore binary files and specific file types
+*.jpg        binary
+*.png        binary
+*.pdf        binary
+*.docx       binary
+
+# Configure merge strategies for specific files
+*.json       merge=ours
