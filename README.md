@@ -62,6 +62,10 @@ Clone this repository to your desired folder:
 - run `git clone https://github.com/ifeanyi305/ai_sensy_clone.git`
 - run `cd space-travelers-hub`
 
+## Credits
+
+Credits goes to [developers](./CREDITS) of this project
+
 ### Install
 
 1. Run `npm install`
@@ -119,6 +123,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
