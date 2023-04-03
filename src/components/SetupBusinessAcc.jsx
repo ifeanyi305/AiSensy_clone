@@ -47,7 +47,7 @@ const SetupBusinessAcc = ({ state }) => {
       apply_guide: "How to apply for FB verification?",
       book_icon2: <MdOutlineMenuBook className="text-[17px]" />,
       apply_guide2: "FB Verification button greyed out?",
-      tutorial_video: <iframe className="border-[2px] rounded-md border-[#000]"  src="https://www.youtube.com/embed/6I5iprduEEw" title="How to Verify Facebook Business Manager Account for WhatsApp Business API | AiSensy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+      tutorial_video: <iframe className="border-[2px] rounded-md border-[#000] w-[100%]"  src="https://www.youtube.com/embed/6I5iprduEEw" title="How to Verify Facebook Business Manager Account for WhatsApp Business API | AiSensy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
       accordion: [accordionTwo, setAccordionTwo]
     },
     {
@@ -77,7 +77,7 @@ const SetupBusinessAcc = ({ state }) => {
 
   return (
     <section>
-      <div className="flex my-4 items-center justify-between">
+      <div className="flex flex-wrap my-4 items-center justify-between">
         <h3 className="flex gap-2 text-[18px]"><RiWhatsappFill className="text-[#2DC10F] text-[24px]" />  Setup FREE WhatsApp Business Account</h3>
         <small>5 steps left</small>
       </div>
@@ -99,7 +99,7 @@ const SetupBusinessAcc = ({ state }) => {
             </div>
             <div>
             <iframe
-              className="border-[2px] rounded-md border-[#000]"
+              className="border-[2px] w-[100%] rounded-md border-[#000]"
               src="https://www.youtube.com/embed/Os4QbiSdYqs" 
               title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
               clipboard-write; encrypted-media; gyroscope; picture-in-picture; 

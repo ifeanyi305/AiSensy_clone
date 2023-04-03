@@ -17,7 +17,7 @@ function App() {
       <section className="">
         <div className="flex gap-6">
           <Sidebar nav={nav} toggleNav={toggleNav} />
-          <section className="m-10 section md:ml-32 w-full">
+          <section className="dashboard flex justify-center md:ml-32 w-full">
             <Dashboard />
           </section>
         </div>
@@ -25,5 +25,4 @@ function App() {
     </>
   )
 }
-
 export default App
